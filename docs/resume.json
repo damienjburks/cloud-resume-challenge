@@ -1,0 +1,578 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Damien Burks",
+      "label": "Cloud DevSecOps Expert ☁️ 👨🏽‍💻🔐 | Founder of The DevSec Blueprint | International Speaker🎙️ | Content Creator 📝 | AWS Community Builder ☁️ | BlackQueerTechie 🏳️‍🌈",
+      "image": "",
+      "email": "dburksgtr@gmail.com",
+      "phone": "",
+      "url": "http://www.damienjburks.com",
+      "summary": "Welcome to my LinkedIn page! I'm Damien Burks (he/him), a Cloud DevSecOps Expert rocking the tech scene in the Dallas-Fort Worth (DFW) Metroplex. Founder of the DevSec Blueprint, I’m passionate about crafting top-notch Cloud Security and DevSecOps content. With a knack for problem-solving and an analytical mindset, I’m all about making the cloud a safer place. When I’m not immersed in the cloud, you’ll find me mentoring BIPOC LGBTQ+ tech pros, battling it out in video games, or chilling with my partner and our two adorable cats.\n\n💼 Career Highlights 💼\n\n1. 🚀 Automated AWS Incident Response Framework: Led the development and implementation of an automated incident response framework using AWS CDK, reducing response time by over 65%.\n2. 🔐 Custom AWS Acceptance Testing Platform: Utilized Terraform to create a robust testing platform for the custom AWS Incident Response framework, ensuring reliability and efficiency.\n3. 🌐 AWS DevSecOps Deployment Pipeline: Implemented a comprehensive DevSecOps pipeline using AWS services like CodePipeline, SonarQube, CodeCommit, and CodeBuild for streamlined deployments.\n4. 💻 Preventive Security Controls in AWS: Designed and implemented robust preventive security controls within AWS using Hashicorp Sentinel and Open Policy Agent.\n5. 📊 Security Metrics and Analysis: Developed security metrics and technical analysis with Splunk and Prisma Cloud, providing critical insights into performance and trends.\n6. 🛠 Open-Source Contributor & Maintainer: Key contributions to projects like Open Policy Agent (OPA), Python Fire, and FINOS Common Cloud Controls.\n7. 🎤 Conference Speaker: Featured at fwd:cloudsec, AWS re:Inforce, and FS-ISAC.\n8. 🌐 AWS Community Builder: Creating and sharing cloud security articles, videos, and blog posts.",
+      "location": {
+        "countryCode": "US",
+        "address": "United States"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "damien-burks-445650a6",
+          "url": "https://www.linkedin.com/in/damien-burks-445650a6/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Citi",
+        "position": "Cloud Security Engineer - SVP",
+        "startDate": "2024-01-31",
+        "endDate": "",
+        "highlights": [],
+        "url": "https://www.linkedin.com/company/citi/",
+        "location": "Irving, Texas, United States"
+      },
+      {
+        "name": "Citi",
+        "position": "Cloud Security Engineer - VP",
+        "startDate": "2021-08-31",
+        "endDate": "2024-01-31",
+        "highlights": [],
+        "summary": "- Led the development and implementation of an automated AWS Incident Response framework by utilizing the AWS Cloud Development Kit (CDK)\n- Decreased AWS Incident Response time via automation by over 65%\n- Utilized Terraform to implement a custom AWS acceptance testing platform that tests the robustness of the custom AWS Incident Response framework\n- Implemented AWS DevSecOps deployment pipeline using the following services and technologies: CodePipeline, SonarQube, CodeCommit, CodeBuild\n- Deployed AWS Tier 2/3 infrastructure using Terraform Enterprise and AWS CloudFormation\n- Designed and implemented robust preventive security controls within AWS using Hashicorp Sentinel and Open Policy Agent\n- Developed security metrics and technical analysis to give insight into performance and trends via Splunk and Prisma Cloud.\n- Engaged business and technology stakeholders to gather goals and requirements for the development of custom security controls with AWS",
+        "url": "https://www.linkedin.com/company/citi/",
+        "location": "Irving, Texas, United States"
+      },
+      {
+        "name": "Verizon",
+        "position": "Security Software Engineer II",
+        "startDate": "2020-07-31",
+        "endDate": "2021-07-31",
+        "highlights": [],
+        "summary": "- Developed and designed application POCs for IT security operations and security governance processes.\n- Developed and implemented a DevSecOps pipeline for large-scale application deployments to remove deployment overhead with the following technologies: Jenkins, SonarQube, Fortify, BlackDuck, Ansible\n- Architected and implemented an AI/ML video-recommendation engine for an enterprise-wide ticketing management system that reduced over 35% of open requests.\n- Reviewed project specifications and designed technology solutions that met or exceeded performance expectations.\n- Wrote stellar documentation for APIs and automated deployment processes.",
+        "url": "https://www.linkedin.com/company/verizon/",
+        "location": "Irving, Texas, United States"
+      },
+      {
+        "name": "Verizon",
+        "position": "Security Software Engineer I",
+        "startDate": "2019-01-31",
+        "endDate": "2020-07-31",
+        "highlights": [],
+        "summary": "- Supported and enhanced custom DLP solution by implementing a web application using the following technologies: Spring Boot framework, Angular 7+, Java, J2EE, HTML5/CSS6, Python, Bash, Jenkins, Ansible\n- Designed and built in house ticketing system with advanced email parsing capabilities using machine learning and natural language processing techniques.\n- Implemented static/dynamic code testing, automated security scans via CI/CD, threat modeling, design reviews and penetration testing of java web applications to identify vulnerabilities and security defects.\n- Introduced and implemented CI/CD solution using Jenkins, Docker and Ansible for the development team to reduce deployment time and increase productivity.",
+        "url": "https://www.linkedin.com/company/verizon/",
+        "location": "Irving, Texas"
+      },
+      {
+        "name": "Texas Southern University",
+        "position": "Sr. Computer Technician",
+        "startDate": "2017-09-30",
+        "endDate": "2018-12-31",
+        "highlights": [],
+        "summary": "My daily duties consist of:\n- Leading and supervising a team of 3 individuals to carry out and resolve level 2-4 incidents.\n- Installing and maintaining computer operating systems, hardware, and software applications.\n- Verifying new and used hardware and software for compatibility with university systems.\n- Responding and promptly resolving Tier 1 issues for faculty, staff, and students.",
+        "url": "https://www.linkedin.com/school/texas-southern-university/",
+        "location": "Houston, Texas Area"
+      },
+      {
+        "name": "Verizon",
+        "position": "Security Software Engineer",
+        "startDate": "2018-06-30",
+        "endDate": "2018-08-31",
+        "highlights": [],
+        "summary": "-Designed a security framework using the following technologies: Docker, Jenkins, Kubernetes, Python, Git, Blackduck, Twistlock, Zap\n-Closely collaborated with several development teams to increase scalability, functionality, and robustness of the framework\n-Implemented static/dynamic code testing, automated security scans, threat modeling, design reviews and penetration testing of docker containers to identify vulnerabilities and security defects",
+        "url": "https://www.linkedin.com/company/verizon/",
+        "location": "Irving, Texas"
+      },
+      {
+        "name": "Tokio Marine HCC",
+        "position": "Desktop Support Specialist",
+        "startDate": "2017-05-31",
+        "endDate": "2017-08-31",
+        "highlights": [],
+        "summary": "- Evaluated applications and software patches for desktop applications regarding desktop issues\n- Created and implemented PowerShell scripts to increase desktop deployment performance and efficiency\n- Collaborated with various vendors to evaluate the new technology that is available and made recommendations to management on using that technology",
+        "url": "https://www.linkedin.com/company/tokiomarinehcc/",
+        "location": "Houston, Texas Area"
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Amazon Web Services (AWS)",
+        "position": "Community Builder",
+        "startDate": "2022-08-31",
+        "endDate": "",
+        "summary": "During my time here, I've collaborated with several other CBs to create content related to AWS Security & Identity.",
+        "highlights": [],
+        "url": ""
+      },
+      {
+        "organization": "GitHub",
+        "position": "Open Source Contributor",
+        "startDate": "2022-06-30",
+        "endDate": "",
+        "summary": "The current maintainer/owner of the following projects:\n- DataCop\n- AWSome-Honey-Pot\nWritten documentation and contributed code to the following projects:\n- Common Cloud Controls (CCC)\n- Open Policy Agent (OPA)\n-- Featured in the following releases: v0.40.0, v0.39.0, v0.38.0, v0.37.0\n- Python Fire\n\nDuring this time, he has presented DataCop at the following conferences:\n- BSidesDFW 2022\n- DevOpsDays - Dallas 2022",
+        "highlights": [],
+        "url": ""
+      },
+      {
+        "organization": "Verizon",
+        "position": "Minority Males Maker Mentor",
+        "startDate": "2018-01-31",
+        "endDate": "2018-12-31",
+        "summary": null,
+        "highlights": [],
+        "url": ""
+      },
+      {
+        "organization": "Texas Southern University",
+        "position": "Computer Science Tutor",
+        "startDate": "2017-09-30",
+        "endDate": "2018-12-31",
+        "summary": "- Explained computer science concepts in an easy to understand language\n- Analyzed comprehension and set goals for the students\n- Dissected complex concepts to individual levels of learning ",
+        "highlights": [],
+        "url": ""
+      },
+      {
+        "organization": "HackHouston",
+        "position": "Volunteer Staff",
+        "startDate": "2017-04-30",
+        "endDate": "2017-04-30",
+        "summary": null,
+        "highlights": [],
+        "url": ""
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Maryland Global Campus",
+        "area": "Cybersecurity Technology",
+        "studyType": "Master of Science - MS",
+        "startDate": "2020-01-31",
+        "endDate": "2023-03-31",
+        "score": "4.0",
+        "courses": []
+      },
+      {
+        "institution": "Texas Southern University",
+        "area": "Computer Science",
+        "studyType": "Bachelor’s Degree",
+        "startDate": "2015-08-31",
+        "endDate": "2018-12-31",
+        "score": "3.64",
+        "courses": [
+          "CS 241 - Object Oriented Using C++",
+          "CS 246 - Data and File Structures",
+          "CS 250 - Computer Network Fundamentals",
+          "CS 124 - Fund Machine Computation",
+          "CS 343 - Microprocessors & Design",
+          "CS 346 - Database Management",
+          "CS 350 - LAN Fundamentals",
+          "CS 342 - Prog. Languages and Design"
+        ]
+      }
+    ],
+    "awards": [
+      {
+        "title": "CSO50 2021 Award",
+        "date": "2021-05-31",
+        "awarder": "CSO50",
+        "summary": "Collaborated on the technical implementation and design of the DLP inspection Framework, \"Sluice\""
+      },
+      {
+        "title": "President's List",
+        "date": "2017-08-31",
+        "awarder": "Texas Southern University",
+        "summary": "Cumulative GPA 3.75 - 4.00"
+      },
+      {
+        "title": "President's List",
+        "date": "2016-08-31",
+        "awarder": "Texas Southern University",
+        "summary": "Cumulative GPA 3.75 - 4.00"
+      },
+      {
+        "title": "President's List",
+        "date": "2015-08-31",
+        "awarder": "Texas Southern University",
+        "summary": "Cumulative GPA 3.75-4.00"
+      }
+    ],
+    "certificates": [
+      {
+        "name": "AWS Certified Cloud Practitioner",
+        "issuer": "Amazon Web Services (AWS)",
+        "endDate": "2026-08-31",
+        "startDate": "2018-09-30"
+      },
+      {
+        "name": "AWS Certified Developer - Associate",
+        "issuer": "Amazon Web Services (AWS)",
+        "endDate": "2022-10-31",
+        "startDate": "2019-10-31"
+      },
+      {
+        "name": "AWS Certified Solutions Architect - Associate",
+        "issuer": "Amazon Web Services (AWS)",
+        "endDate": "2024-06-30",
+        "startDate": "2021-06-30",
+        "url": "http://aws.amazon.com/verification"
+      },
+      {
+        "name": "AWS Certified Security - Specialty",
+        "issuer": "Amazon Web Services (AWS)",
+        "endDate": "2024-12-31",
+        "startDate": "2021-12-31",
+        "url": "https://aw.certmetrics.com/amazon/public/verification.aspx"
+      },
+      {
+        "name": "Cloud Digital Leader",
+        "issuer": "Google Cloud Training Online",
+        "endDate": "2026-01-31",
+        "startDate": "2023-01-31",
+        "url": "https://www.credential.net/e755de07-7e75-473d-b5c7-ce3a37ec75b5"
+      },
+      {
+        "name": "Master of Science in Cybersecurity Technology",
+        "issuer": "University of Maryland Global Campus",
+        "startDate": "2023-03-31",
+        "url": "https://www.umgc.edu/current-students/degree-requirements/validation"
+      },
+      {
+        "name": "AWS Certified DevOps Engineer - Professional",
+        "issuer": "Amazon Web Services (AWS)",
+        "endDate": "2026-08-31",
+        "startDate": "2023-08-31",
+        "url": "https://aws.amazon.com/verification"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Citi's Containment Automation Framework",
+        "publisher": "FS-ISAC",
+        "releaseDate": "2022-10-12",
+        "summary": "This was a presentation that was given at FinCyber Today 2022 about an automation framework that we have developed in-house at Citi.",
+        "url": "https://www.fsisac.com/hubfs/Events/Summits/2022Summits/FinCyberToday22/22FCT_FullAgenda.pdf"
+      },
+      {
+        "name": "Tips on how to become an AWS Community Builder",
+        "publisher": "Dev.to / Damien J. Burks",
+        "releaseDate": "2022-09-03",
+        "summary": "",
+        "url": "https://dev.to/damienjburks/tips-on-how-to-become-an-aws-community-builder-1gd"
+      },
+      {
+        "name": "Automated S3 Blocking with AWS Macie & DataCop",
+        "publisher": "DevOpsDays - Dallas / Damien J Burks",
+        "releaseDate": "2022-08-25",
+        "summary": "I presented this open-source framework that I developed a local conference within the DFW area.",
+        "url": "https://devopsdays.org/events/2022-dallas/program/damien-burks/"
+      },
+      {
+        "name": "Lessions Learned: Contributing to Open Source",
+        "publisher": "Damien J Burks",
+        "releaseDate": "2022-04-29",
+        "summary": "So you want to contribute to open-source projects and don't know where or how to begin? Well, how about I share some of my experience and tips on how to get started contributing to open source.",
+        "url": "https://www.damienjburks.com/post/lessons-learned-contributing-to-open-source"
+      },
+      {
+        "name": "The Journey Into Tech Series Ft. Damien Burks",
+        "publisher": "Brown Tech Bae | Danielle Madry",
+        "releaseDate": "2022-01-30",
+        "summary": "Hey Yall, Welcome to the \"Journey Into Tech Series\" On today's episode we have Damien Burks. He is Cloud Security Engineer - VP at Citi | #DevSecMentor | #BlackQueerTechie | Content Creator | AWS 3X Certified! \n\nStay In Touch With Damien Here:\n\nLinkTree: linktr.ee/damienjburks AWS Information: AWS Blogs: https://www.damienjburks.com/blog/categories/aws Whizlabs AWS SAA Story: https://www.whizlabs.com/blog/journey-to-aws-csaa-exam-success-by-damien-burks/ -> Passing that AWS Solutions Architect - Associate",
+        "url": "https://anchor.fm/browntechbae/episodes/The-Journey-Into-Tech-Series-Ft--Damien-Burks-e1bro2h"
+      },
+      {
+        "name": "How I Passed the AWS Certified Security Specialty (SCS-C01)",
+        "publisher": "Damien J Burks",
+        "releaseDate": "2021-12-06",
+        "summary": "After about three months of studying, I was finally able to pass the AWS Certified Security Specialty (SCS) with a 773!!! Learn more about my journey by reading my post.",
+        "url": "https://www.damienjburks.com/post/how-i-passed-the-aws-certified-security-specialty-scs-c01"
+      },
+      {
+        "name": "Journey to AWS Certified Solutions Architect Associate Exam Success by Damien Burks",
+        "publisher": "Whizlabs",
+        "releaseDate": "2021-08-02",
+        "summary": "Damien Burks is a tech enthusiast with many certifications in hand such as CompTIA Security+, AWS Certified Cloud Practitioner, AWS Certified Developer Associate, and AWS Certified Solutions Architect Associate. His passion for building and inventing new products led him to the computer science field. He started off with writing small codes and creating simple video games. Now, he specializes in Security Software engineering and aspires to be a DevSecOps engineer soon.\n\nWhen we reached out to him, he was more than excited to share his study tips and insights on a certification path. In this article Damien talks about his journey to clear the AWS Certified Solutions Architect Associate Exam. He specifies how he started the preparation, his schedule and much more. Continue reading the article to understand Damien’s analysis of the AWS CSAA exam syllabus and topics.",
+        "url": "https://www.whizlabs.com/blog/journey-to-aws-csaa-exam-success-by-damien-burks/"
+      },
+      {
+        "name": "A teacher, engineer and computer scientist on mentoring next-gen STEM stars.",
+        "publisher": "Donna Rivera",
+        "releaseDate": "2021-06-29",
+        "summary": "Former mentors in Verizon Innovative Learning’s Young Men of Color program on the importance of supporting future leaders.",
+        "url": "https://www.verizon.com/about/news/mentoring-next-gen-stem-stars"
+      },
+      {
+        "name": "How I Passed the AWS CDA DVA-C01",
+        "publisher": "Damien J Burks",
+        "releaseDate": "2021-06-15",
+        "summary": "After I took the AWS CCP, I was tempted to pursue the AWS Certified Developer Associate (CDA) - C01 certification. This was my first associate exam, and I expected it to be somewhat difficult. However, it was extremely difficult for me when I studied and took it for the first time in 2019.",
+        "url": "https://www.damienjburks.com/post/how-i-passed-the-aws-cda-dva-c01"
+      },
+      {
+        "name": "DevSecLab Series: Pipeline Time! (PT.1)",
+        "publisher": "Damien J Burks",
+        "releaseDate": "2021-06-13",
+        "summary": "This blog post will cover a variety of things related to the construction of the Jenkins pipeline. I will give an overview of Jenkins, explain terms and basic pipeline concepts, and construct our own Jenkins pipeline from scratch!",
+        "url": "https://www.damienjburks.com/post/devseclab-series-pipeline-time-pt-1"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Terraform",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Google Cloud Platform (GCP)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "DevSecOps",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "C (Programming Language)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Troubleshooting",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Linux",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Amazon S3",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Spring Boot",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "AWS Command Line Interface (CLI)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Amazon EC2",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "C++",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "AWS Identity and Access Management (AWS IAM)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Customer Service",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Unix",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Cyber Operations",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Wireshark",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Kubernetes",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Git",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Java",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Cyber Defense",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Docker Products",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Microsoft Office",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "AWS Security",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "AWS CloudFormation",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Object-Oriented Programming (OOP)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Jenkins",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Communication",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Object Oriented Design",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Penetration Testing",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Python (Programming Language)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Kali Linux",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Ansible",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Bash",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Open Source Software",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Networking",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Digital Forensics",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "AWS CodePipeline",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Spring Framework",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Time Management",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "AWS Lambda",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Stress Management",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Computer Forensics",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Teamwork",
+        "level": "",
+        "keywords": []
+      }
+    ],
+    "languages": [
+      {
+        "fluency": "Native Speaker",
+        "language": "English"
+      }
+    ],
+    "interests": [],
+    "references": [
+      {
+        "name": "Josh Miller",
+        "reference": "As an ancient bear of a programmer, Damien is my selfish hope for the future and the kind of peer I want for my daughter when she heads out into the world.  He is patient beyond his years, open-minded, insightful, charismatic, thankful, humble, and enjoyable to work with while remaining wildly productive.  He is the guy you want on your team when things need to get done, especially if the solution you are pursuing requires new languages and concepts.  He is one of the fastest self-motivated people I've ever met and requires zero hand-holding while remaining loyal to his own expectations of quality (which are probably way higher than any company's).  Damien's career and skillset have no limit and anyone would be a fool not to hire him.  As a personal note, Damien, if you haven't started your own company five years from now, I'm going to personally berate you on LinkedIn.  You're great at making the ideas of normal men look brilliant.  Imagine what you could do unfettered."
+      }
+    ],
+    "projects": [
+      {
+        "name": "DataCop",
+        "startDate": "2022-05-31",
+        "summary": "DataCop is an custom AWS framework that mitigates the potential of vulnerable S3 buckets. Reliant on AWS Macie results, DataCop enables professionals that leverage AWS Macie to automatically block S3 buckets that contain PII or any classified information.",
+        "url": "https://www.github.com/damienjburks/DataCop",
+        "endDate": "2022-05-31"
+      },
+      {
+        "name": "Port Scanner with GUI Interface",
+        "startDate": "2016-10-31",
+        "summary": "Used knowledge of Python Fundamentals as well as the Tkinter and Sockets libraries in Python to construct a GUI interfaced port scanner. The scanner takes a target IP address while on a network and scans ports on the specified target in order to determine and output which ports are open and closed, and then saves this data to a .txt file for the user's convenience. By creating this, we allow the user another option in trying to complete the reconnaissance phase of the Penetration Testing hierarchy.",
+        "url": "https://github.com/tsucissa/PortScanner",
+        "endDate": "2016-10-31"
+      },
+      {
+        "name": "OpenVPN Server Build using a Raspberry Pi 3",
+        "startDate": "2016-08-31",
+        "summary": "The Pi 3 is a OpenSSH and also OpenVPN Server. This server has both custom made certificates for both clients and also for the VPN to operate properly. This VPN can be accessed from outside the actual network, allowing others from all across the world to access this VPN. I created certifications for all users (including all mobile operating systems such as IOS and Jellybean). ",
+        "url": null,
+        "endDate": "2016-09-30"
+      }
+    ],
+    "meta": {
+      "version": "v1.0.0",
+      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    }
+  }

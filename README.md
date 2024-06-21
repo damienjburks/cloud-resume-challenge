@@ -1,2 +1,6 @@
-# cloud-resume-challenge
-Cloud Resume Challenge for Learning All CSPs
+# Google Cloud - Cloud Resume Challenge
+
+GCP Cloud Resume Challenge
+https://cloudresumeapi.dev/
+
+Resume converter: https://jsonresume.org/getting-started
