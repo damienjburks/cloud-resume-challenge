@@ -35,3 +35,18 @@ resource "google_firestore_database" "database" {
 }
 
 # IAM
+resource "google_project_iam_custom_role" "custom_role" {
+  role_id     = "customRoleId"
+  title       = "Custom Role Title"
+  description = "A custom role with specific permissions"
+  permissions = [
+    "storage.buckets.get",
+    "storage.buckets.list",
+    "storage.objects.get",
+    "storage.objects.list"
+  ]
+}
+
+output "custom_role_name" {
+  value = google_project_iam_custom_role.custom_role.name
+}
