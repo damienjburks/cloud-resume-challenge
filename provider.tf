@@ -13,10 +13,8 @@ provider "google" {
   region  = "us-central1"
   
   default_labels = {
-    user = "Damien"
-    email = "damien@damienjburks.com"
+    user = "damien"
     environment = "dev"
     project = "cloud-resume-challenge"
-    github_link = "https://github.com/damienjburks/cloud-resume-challenge"
   }
 }

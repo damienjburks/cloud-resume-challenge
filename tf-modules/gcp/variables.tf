@@ -2,6 +2,10 @@ variable "bucket_name" {
   type = string
 }
 
+variable "function_src_dir" {
+  type = string
+}
+
 variable "zip_file_name" {
   type = string
 }
