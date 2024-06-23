@@ -12,4 +12,10 @@ jobs:
   linting-check:
     uses: ./.github/workflows/pylint-check.yml
   terraform-apply:
+    needs:
+      - format-check
+      - linting-check
     uses: ./.github/workflows/terraform-apply.yml
+    permissions:
+      contents: read
+    secrets: inherit
