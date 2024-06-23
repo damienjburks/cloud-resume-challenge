@@ -14,6 +14,8 @@
 This project is part of my GCP Cloud Resume Challenge, where I created and deployed a cloud-based resume using various Google Cloud services.
 The Cloud Resume Challenge helped me demonstrate my skills in cloud computing and modern infrastructure as code practices. This project includes setting up a serverless function, a cloud storage bucket, and a NoSQL database to serve and manage my resume.
 
+To view the JSON output of my resume, please click on the link: <https://us-central1-dsb-innovation-hub.cloudfunctions.net/cloud-resume>
+
 ### Key Components and Google Cloud Services Used
 
 1. **Google Cloud Storage**:
@@ -26,7 +28,7 @@ The Cloud Resume Challenge helped me demonstrate my skills in cloud computing an
    - The function uses the Python runtime version `python312`.
 
 3. **Google Firestore**:
-   - Firestore is used as a NoSQL database to store and manage resume data.
+   - Firestore is used as a NoSQL database to store and manage session header data. IP address and CIDR information will be logged.
    - A Firestore database named `cloud-resume-nosql` is set up in the `nam5` location.
 
 ### Folder Structure
