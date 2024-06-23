@@ -72,7 +72,3 @@ def log_data_into_firestore(headers: dict):
         headers: A dictionary containing the request headers.
     """
     db.collection("user_data").document().set(headers)
-
-
-if __name__ == "__main__":
-    get_latest_resume()
