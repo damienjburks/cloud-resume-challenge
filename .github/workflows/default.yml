@@ -11,3 +11,5 @@ jobs:
     uses: ./.github/workflows/black-fmt-check.yml
   linting-check:
     uses: ./.github/workflows/pylint-check.yml
+  terraform-apply:
+    uses: ./.github/workflows/terraform-apply.yml
