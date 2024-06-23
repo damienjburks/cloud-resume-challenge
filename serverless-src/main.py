@@ -18,6 +18,9 @@ Client().setup_logging(log_level=logging.INFO)
 # Initialize Firebase Admin SDK
 cred = credentials.ApplicationDefault()
 initialize_app(cred)
+db = firestore.client()
+db_name = os.environ["FIRESTORE_DB_NAME"].split("/")[-1]
+db._database_string_internal = f"projects/dsb-innovation-hub/databases/{db_name}"  # pylint: disable=protected-access
 
 
 def handler(request: Request):
@@ -34,14 +37,31 @@ def handler(request: Request):
     log_data_into_firestore(headers)
     logging.info("Inserted headers into database for tracking and analytics...")
 
-    with open("./assets/resume.json", "r", encoding="utf-8") as f:
-        data = json.loads(f.read())
+    data = get_latest_resume()
+    logging.info("Retrieved latest resume data from database...")
 
     return Response(
         response=json.dumps(data, sort_keys=False),
         status=200,
         mimetype="application/json",
     )
+
+
+def get_latest_resume():
+    """
+    This function retrieves the latest resume data from the Firebase Firestore database.
+
+    Returns:
+        A dictionary containing the latest resume data.
+    """
+    # Get the latest document from the "resumes" collection
+    docs = db.collection("resumes").stream()
+
+    latest_doc_dict = None
+    for doc in docs:
+        latest_doc_dict = doc.to_dict()
+
+    return latest_doc_dict
 
 
 def log_data_into_firestore(headers: dict):
@@ -51,9 +71,4 @@ def log_data_into_firestore(headers: dict):
     Args:
         headers: A dictionary containing the request headers.
     """
-
-    # Initialize Firestore client
-    db = firestore.client()
-    db_name = os.environ.get("FIRESTORE_DB_NAME").split("/")[-1]
-    db._database_string_internal = f"projects/dsb-innovation-hub/databases/{db_name}"  # pylint: disable=protected-access
     db.collection("user_data").document().set(headers)
