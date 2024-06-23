@@ -1,0 +1,20 @@
+name: "Pull Request Workflow"
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+    format-check:
+      uses: ./.github/workflows/black-fmt-check.yml
+    linting-check:
+      uses: ./.github/workflows/pylint-check.yml
+    run-terraform-plan:
+        needs:
+            - format-check
+            - linting-check
+        uses: ./.github/workflows/terraform-plan.yml
+        permissions:
+          pull-requests: write
+          contents: read
+        secrets: inherit
