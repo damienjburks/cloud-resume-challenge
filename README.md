@@ -15,7 +15,7 @@ This project is part of my Cloud Resume Challenge, where I created and deployed 
 
 The Cloud Resume API Challenge helped me demonstrate my skills in cloud computing and modern infrastructure as code practices. This project includes setting up a serverless function, a cloud storage bucket, and a NoSQL database to serve and manage my resume.
 
-To view the JSON output of my resume in GCP, please click on the link: <https://us-central1-dsb-innovation-hub.cloudfunctions.net/cloud-resume>
+To view the JSON output of my resume in GCP, please click on the link: <https://us-central1-dsb-innovation-hub.cloudfunctions.net/cloud-resume-api>
 
 ### Key Components and Google Cloud Services Used
 

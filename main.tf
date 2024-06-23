@@ -8,7 +8,7 @@ module "gcp-cloud-resume" {
   zip_file_name = "cloud-resume-src"
   zip_file_path = "${path.module}/serverless-src.zip"
 
-  function_name = "cloud-resume"
+  function_name = "cloud-resume-api"
   function_entry_point = "handler"
   function_runtime = "python312"
 
