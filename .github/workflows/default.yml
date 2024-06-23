@@ -1,4 +1,4 @@
-name: "Default Workflow (Main)"
+name: "Deploy Infrastructure with Terraform"
 
 on:
   push:

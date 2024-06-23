@@ -1,6 +1,6 @@
-# Google Cloud - Cloud Resume API Challenge
+# Cloud Resume API Challenge
 
-![GitHub Actions](https://github.com/damienjburks/cloud-resume-challenge/actions/workflows/default.yml/badge.svg?style=flat)
+![Deploy GCP Infrastructure](https://github.com/damienjburks/cloud-resume-challenge/actions/workflows/default.yml/badge.svg)
 ![License](https://img.shields.io/github/license/damienjburks/cloud-resume-challenge?style=flat)
 ![Repo Size](https://img.shields.io/github/repo-size/damienjburks/cloud-resume-challenge?style=flat)
 ![Last Commit](https://img.shields.io/github/last-commit/damienjburks/cloud-resume-challenge?style=flat)
@@ -11,10 +11,11 @@
 
 ## Project Overview
 
-This project is part of my GCP Cloud Resume Challenge, where I created and deployed a cloud-based resume using various Google Cloud services.
-The Cloud Resume Challenge helped me demonstrate my skills in cloud computing and modern infrastructure as code practices. This project includes setting up a serverless function, a cloud storage bucket, and a NoSQL database to serve and manage my resume.
+This project is part of my Cloud Resume Challenge, where I created and deployed a cloud-based resume using various Google Cloud services _(for now)_. The future state of this project is to create a multi-cloud resume API that folks can call.
 
-To view the JSON output of my resume, please click on the link: <https://us-central1-dsb-innovation-hub.cloudfunctions.net/cloud-resume>
+The Cloud Resume API Challenge helped me demonstrate my skills in cloud computing and modern infrastructure as code practices. This project includes setting up a serverless function, a cloud storage bucket, and a NoSQL database to serve and manage my resume.
+
+To view the JSON output of my resume in GCP, please click on the link: <https://us-central1-dsb-innovation-hub.cloudfunctions.net/cloud-resume>
 
 ### Key Components and Google Cloud Services Used
 
