@@ -1,13 +1,17 @@
 # Google Cloud - Cloud Resume API Challenge
 
 ![GitHub Actions](https://github.com/damienjburks/cloud-resume-challenge/actions/workflows/default.yml/badge.svg?style=flat)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![License](https://img.shields.io/github/license/damienjburks/cloud-resume-challenge?style=flat)
+![Repo Size](https://img.shields.io/github/repo-size/damienjburks/cloud-resume-challenge?style=flat)
+![Last Commit](https://img.shields.io/github/last-commit/damienjburks/cloud-resume-challenge?style=flat)
+![Open Issues](https://img.shields.io/github/issues/damienjburks/cloud-resume-challenge?style=flat)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
 
 ## Project Overview
 
-This project is part of my GCP Cloud Resume Challenge, where I created and deployed a cloud-based resume using various Google
+This project is part of my GCP Cloud Resume Challenge, where I created and deployed a cloud-based resume using various Google Cloud services.
 The Cloud Resume Challenge helped me demonstrate my skills in cloud computing and modern infrastructure as code practices. This project includes setting up a serverless function, a cloud storage bucket, and a NoSQL database to serve and manage my resume.
 
 ### Key Components and Google Cloud Services Used
@@ -39,31 +43,6 @@ The Cloud Resume Challenge helped me demonstrate my skills in cloud computing an
   - `main.py`: Main Python script for the serverless function.
   - `requirements.txt`: Lists the dependencies for the Python script.
 - `tf-modules`: Directory containing Terraform modules used in the project.
-
-### How to Get Started
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/damienjburks/cloud-resume-challenge.git
-   ```
-
-2. **Set Up Google Cloud Services**:
-   - Ensure you have a Google Cloud account and the necessary permissions.
-   - Configure your `gcloud` CLI with your project details.
-
-3. **Deploy everything with Terraform**:
-   - Initialize Terraform:
-
-     ```bash
-     terraform init
-     ```
-
-   - Apply the configuration:
-
-     ```bash
-     terraform apply
-     ```
 
 ### Additional Resources
 
