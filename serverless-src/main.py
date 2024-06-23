@@ -38,6 +38,7 @@ def handler(request: Request):
     logging.info("Inserted headers into database for tracking and analytics...")
 
     data = get_latest_resume()
+    logging.info("Retrieved latest resume data from database...")
 
     return Response(
         response=json.dumps(data, sort_keys=False),
