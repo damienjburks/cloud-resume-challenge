@@ -28,6 +28,10 @@ resource "google_cloudfunctions_function" "function" {
 
   https_trigger_security_level = "SECURE_ALWAYS"
   entry_point                  = var.function_entry_point
+
+  environment_variables = {
+    "FIRESTORE_DB_NAME" = google_firestore_database.database.name
+  }
 }
 
 # Allow the function to be invoked from the HTTP from all users

@@ -1,0 +1,13 @@
+name: "Default Workflow (Main)"
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  format-check:
+    uses: ./.github/workflows/black-fmt-check.yml
+  linting-check:
+    uses: ./.github/workflows/pylint-check.yml
