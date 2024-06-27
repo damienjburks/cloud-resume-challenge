@@ -56,3 +56,24 @@ resource "google_firestore_database" "database" {
   delete_protection_state           = "DELETE_PROTECTION_DISABLED"
   deletion_policy                   = "DELETE"
 }
+
+resource "google_project_iam_custom_role" "custom_object_viewer" {
+  role_id     = "cloud_resume_api_object_ro_role"
+  title       = "Object Viewer Role for Cloud Function"
+  description = "Role to view objects in Cloud Storage"
+  permissions = ["storage.buckets.get", "storage.buckets.list"]
+}
+
+resource "google_cloudfunctions_function_iam_binding" "custom_object_viewer_binding" {
+  project        = google_cloudfunctions_function.function.project
+  region         = google_cloudfunctions_function.function.region
+  cloud_function = google_cloudfunctions_function.function.name
+  role           = google_project_iam_custom_role.custom_object_viewer.id
+
+  # This static list of members is just for demo purposes.
+  members = [
+    "allUsers",
+  ]
+
+  depends_on = [ google_cloudfunctions_function.function ]
+}

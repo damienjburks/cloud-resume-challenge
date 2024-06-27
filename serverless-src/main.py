@@ -9,11 +9,13 @@ import json
 
 from firebase_admin import credentials, firestore, initialize_app
 
-from google.cloud.logging import Client
+from google.cloud.logging import Client as GLoggingClient
+from google.cloud.storage import Client as GStorageClient
 from flask import Response, Request
 
-# Setup Google Cloud Logging
-Client().setup_logging(log_level=logging.INFO)
+# Setup Google Cloud Clients
+GLoggingClient().setup_logging(log_level=logging.INFO)
+storage_client = GStorageClient()
 
 # Initialize Firebase Admin SDK
 cred = credentials.ApplicationDefault()
@@ -21,6 +23,18 @@ initialize_app(cred)
 db = firestore.client()
 db_name = os.environ["FIRESTORE_DB_NAME"].split("/")[-1]
 db._database_string_internal = f"projects/dsb-innovation-hub/databases/{db_name}"  # pylint: disable=protected-access
+
+
+def call_return_list_of_objects():
+    """
+    This function calls a placeholder function that returns a list of objects
+    in a Cloud Storage bucket.
+    """
+    return (
+        json.dumps(_return_list_of_objects),
+        200,
+        {"Content-Type": "application/json"},
+    )
 
 
 def handler(request: Request):
@@ -33,6 +47,8 @@ def handler(request: Request):
     Returns:
         A JSON response containing the resume data and a 200 status code.
     """
+    logging.info("Calling function: %s", _return_list_of_objects())
+
     headers = dict(request.headers)
     log_data_into_firestore(headers)
     logging.info("Inserted headers into database for tracking and analytics...")
@@ -72,3 +88,12 @@ def log_data_into_firestore(headers: dict):
         headers: A dictionary containing the request headers.
     """
     db.collection("user_data").document().set(headers)
+
+
+def _return_list_of_objects():
+    """
+    This function is a placeholder for a function that returns a list of objects
+    in a Cloud Storage bucket.
+    """
+    buckets = storage_client.list_buckets()
+    return {"listOfBuckets": [bucket.name for bucket in buckets]}
